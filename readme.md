@@ -3,6 +3,7 @@
 Nginx-buildpack vendors NGINX inside a dyno and connects NGINX to an app server via UNIX domain sockets.
 
 ## HQ Mobile Changes
+- Built NGINX for cedar-14 and heroku-16 stacks
 - Added --with-http_auth_request_module option to enable the auth_request module:
   http://nginx.org/en/docs/http/ngx_http_auth_request_module.html
 
